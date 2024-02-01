@@ -1,0 +1,15 @@
+0. pnpm i
+1. react-toastify
+npm ERR! Cannot read properties of null (reading 'matches')
+
+2. pnpm i react-toastify
+3. json-server ./src/data/db.json --port 3002
+
+
+// updateScore = (team, newScore) => {
+  //   setScores((prevScores) => {
+  //     const updatedScores = { ...prevScores, [team]: newScore };
+  //     localStorage.setItem('teamScores', JSON.stringify(updatedScores));
+  //     return updatedScores;
+  //   });
+  // };
